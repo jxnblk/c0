@@ -66,11 +66,8 @@ export const gx = ({
   breakpoint = 512
 } = {}) => h('div')({
   class: cxs({
-    boxSizing: 'border-box',
-    display: 'inline-block',
-    verticalAlign: 'top',
+    ...config.gx,
     minWidth: `${col / 12 * 100}%`,
-    maxWidth: '100%',
     width: `calc(${breakpoint * breakpoint}px - ${100 * breakpoint}%)`
   })
 })

@@ -1,12 +1,14 @@
 
-import Color from 'color'
-
-export const darken = c => d => Color(c).darken(d).hexString()
-export const alpha = c => a => Color(c).alpha(a).rgbString()
+import {
+  toHex,
+  toRgb,
+  darken,
+  alpha
+} from './colors'
 
 export const black = '#111'
 export const blue = '#07c'
-export const gray = alpha(black)(1/16)
+export const gray = '#eee' // alpha(black)(1/16)
 
 export const x = [
   0,
@@ -78,6 +80,13 @@ const config = {
   box: {
     paddingLeft: x[1],
     paddingRight: x[1],
+  },
+
+  gx: {
+    boxSizing: 'border-box',
+    display: 'inline-block',
+    verticalAlign: 'top',
+    maxWidth: '100%',
   }
 }
 
