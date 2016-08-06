@@ -1,0 +1,82 @@
+{
+  "name": "jxnblk/c0",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.10"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/jxnblk/c0",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/c0",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "c0",
+      "subhead": "Styled DOM element microlibrary",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "c0: Styled DOM element microlibrary",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "jxnblk",
+          "repo": "c0"
+        }
+      ],
+      "text": "v1.0.0-beta.0"
+    },
+    {
+      "component": "article",
+      "html": "<p>&lt;h1&gt;c&lt;sub&gt;0&lt;/sub&gt;&lt;/h1&gt;\n\n</p>\n<p><strong>WIP: Experimental</strong></p>\n<ul>\n<li>[x] config</li>\n<li>[x] root()</li>\n<li>[x] h1()</li>\n<li>[x] h2()</li>\n<li>[x] h3()</li>\n<li>[x] h4()</li>\n<li>[x] h5()</li>\n<li>[x] h6()</li>\n<li>[ ] p()</li>\n<li><p>[ ] a()</p>\n</li>\n<li><p>[x] container()</p>\n</li>\n<li>[x] gx()</li>\n<li>[x] flex()</li>\n<li>[x] box()</li>\n<li>[ ] col()</li>\n<li><p>[ ] ib()</p>\n</li>\n<li><p>[ ] p/m generator</p>\n</li>\n<li>[ ] p1() - p4()</li>\n<li>[ ] px1() - px4()</li>\n<li><p>[ ] py1() - py4()</p>\n</li>\n<li><p>[ ] m1() - m4()</p>\n</li>\n<li>[ ] mx1() - mx4()</li>\n<li>[ ] my1() - my4()</li>\n</ul>\n<p>MIT License</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/jxnblk/c0",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/jxnblk",
+          "text": "jxnblk"
+        }
+      ]
+    }
+  ]
+}
