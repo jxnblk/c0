@@ -1,0 +1,6 @@
+{
+  "name": "C0",
+  "tagline": "",
+  "body": "\r\n<h1>c<sub>0</sub></h1>\r\n\r\n**WIP: Experimental**\r\n\r\n- [x] config\r\n- [x] root()\r\n- [x] h1()\r\n- [x] h2()\r\n- [x] h3()\r\n- [x] h4()\r\n- [x] h5()\r\n- [x] h6()\r\n- [ ] p()\r\n- [ ] a()\r\n\r\n- [x] container()\r\n- [x] gx()\r\n- [x] flex()\r\n- [x] box()\r\n- [ ] col()\r\n- [ ] ib()\r\n\r\n- [ ] p/m generator\r\n- [ ] p1() - p4()\r\n- [ ] px1() - px4()\r\n- [ ] py1() - py4()\r\n\r\n- [ ] m1() - m4()\r\n- [ ] mx1() - mx4()\r\n- [ ] my1() - my4()\r\n\r\nMIT License\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
